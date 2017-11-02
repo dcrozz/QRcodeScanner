@@ -11,11 +11,11 @@ import {
 } from 'react-native';
  
 class QRcodeScanner extends Component {
-  state = {
-	  text: 'https://www.google.com',
-  };
  
   render() {
+	state = {
+	  text: 'https://www.google.com',
+    };
     return (
       <View style={styles.container}>
         <TextInput
